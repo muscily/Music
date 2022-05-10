@@ -185,7 +185,7 @@ async def hfmm(_, message):
             f"⌔∮ وضع تعطيل المشغل تم تفعيله **{message.chat.title}**__"
         )
     else:
-        await message.reply_text("استخدم الامر هكذا؛ `!المشغل تشغيل` و `!المشغل تعطيل`"))
+        await message.reply_text("استخدم الامر هكذا؛ `!المشغل تشغيل` و `!المشغل تعطيل`")
 
 
 @Client.on_callback_query(filters.regex(pattern=r"^(cls)$"))
