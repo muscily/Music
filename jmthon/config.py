@@ -29,5 +29,4 @@ CMD_MUSIC = list(getenv("CMD_MUSIC", "/ !").split())
 BG_IMG = getenv("BG_IMG")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 MUST_JOIN = getenv('MUST_JOIN', None)
-    if MUST_JOIN.startswith("@"):
-        MUST_JOIN = MUST_JOIN.replace("@", "")
+
